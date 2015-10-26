@@ -1,0 +1,11 @@
+body
+{
+  background:url(images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.mdl
+{
+  text-align:center;
+}

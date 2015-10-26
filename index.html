@@ -3,9 +3,44 @@
   <head>
     <meta charset='utf-8'>
     <title>Myghpages by aositelici</title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet">
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   </head>
 
   <body>
-    <a id="forkme_banner" href="https://github.com/aositelici/myGhPages">View on GitHub</a>   
+    <div class = "container">
+      <section>
+        <a id="forkme_banner" href="https://github.com/aositelici/myGhPages">View on GitHub</a>
+        <h1 class="text-center">我的gh-pages</h1>
+      </section>
+      <section >
+        <p>大家好，我是李亚，很高兴做一个简单的gh-pages作业，这个页面你喜欢吗？</p>
+        <p>这是我喜欢的一幅画，梵高的《向日葵》。每一朵向日葵都像是一团炽热的火球在燃烧，各种黄的组成了响亮鲜明的调子，高傲不羁，追寻着自己热爱的光明。</p>
+      </section>
+      <section class="mdl">
+        <img src="images/flower.jpg" class="img-rounded img-thumbnail" >
+      </section>
+      <section>
+        <h3>再写一些上节课的总结</h3>
+        <p>我们都知道git有三个区域：</p>
+        <li>1. working directory 工作区 </li>
+        <li>  当前目录下除了.git/其他内容就working directory </li>
+        <li>2. staging area 暂存区</li>
+        <li>  是.git/下的index文件 </li>
+        <li>3. repository 版本库 </li>
+        <li>.git/是repository </li>
+        <p>这三者之间的对应关系可以由下图来表示：</p>
+        <br>
+        <section class="mdl">
+          <img src="http://upload-images.jianshu.io/upload_images/1091679-1b0fc8fda67270cb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" class="img-rounded img-thumbnail" >
+        </section>
+        <br>
+        <p>图中左侧为工作区，右侧为版本库。 .git就是版本库。暂存区是包含在版本库中的一个名为index的文件，index文件中此次暂存的文件的时间戳、长度等信息。有人可能会以后这样的一个虚拟的暂存区有什么意义呢？
+        由于这些文件信息的存在，当扫描工作区改动的时候，系统就可以通过扫描这些信息的改变来判断工作区文件是否发生变化。与扫描实际文件内容相比较这样做无疑效率更高。当然这不仅仅是暂存区存在的理由，有了暂存区，
+        你可以暂存一定数量的文件，当累计到完成一个单位工作量后再进行一次有意义的提交，当然我们提倡小步提交。标记为 "master" 的是 master 分支所代表的目录树。HEAD是一个引用，指向正在使用的分支。</p>
+     </section>
+    </div>
   </body>
 </html>

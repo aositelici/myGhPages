@@ -1,0 +1,17 @@
+{
+  "name": "web-basic",
+  "version": "0.0.0",
+  "authors": [
+    "liya <liya013@live.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
+  }
+}
+
